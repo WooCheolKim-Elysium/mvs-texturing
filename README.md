@@ -15,7 +15,7 @@ Downgraded OpenMP 3.0+ code back to 2.0 because Visual Studio only supports Open
 
 # Build instructions #
 
-1. First, build MVE according to the MVE build instructions for Windows
+1. First, build MVE according to the MVE build instructions for Windows (https://github.com/simonfuhrmann/mve/wiki/Build-Instructions-for-Windows)
 
 2. Pull from https://github.com/andre-schulz/mvs-texturing.git into a folder parallel to "mve". (i.e. if you cloned MVE into "/path/to/mve", then you should clone mvs-texturing into "/path/to/mvs-texturing")
 

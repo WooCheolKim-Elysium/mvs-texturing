@@ -7,17 +7,26 @@ Downgraded OpenMP 3.0+ code back to 2.0 because Visual Studio only supports Open
 
 # Requirements #
 
-64-bit Windows
-Visual Studio 2015 (64-bit) or newer
-CMake 3.1 or newer
+1. 64-bit Windows
+
+2. Visual Studio 2015 (64-bit) or newer
+
+3. CMake 3.1 or newer
 
 # Build instructions #
 
-First, build MVE according to the MVE build instructions for Windows
-Pull from https://github.com/andre-schulz/mvs-texturing.git into a folder parallel to "mve". (i.e. if you cloned MVE into "/path/to/mve", then you should clone mvs-texturing into "/path/to/mvs-texturing")
-Switch to the "cmake" branch (respectively "remotes/origin/cmake")
-Run cmake (configure + generate) in "mvs-texturing" folder
-Open "Texturing.sln"
-Set your desired solution configuration (you'll most likely want "Release")
-Build the solution
-You can find the resulting binary in "apps/texrecon/<CMAKE_BUILD_TYPE>", where CMAKE_BUILD_TYPE is your chosen build type, i.e. one of { Release, Debug, RelWithDebInfo, MinSizeRel }.
+1. First, build MVE according to the MVE build instructions for Windows
+
+2. Pull from https://github.com/andre-schulz/mvs-texturing.git into a folder parallel to "mve". (i.e. if you cloned MVE into "/path/to/mve", then you should clone mvs-texturing into "/path/to/mvs-texturing")
+
+3. Switch to the "cmake" branch (respectively "remotes/origin/cmake")
+
+4. Run cmake (configure + generate) in "mvs-texturing" folder
+
+5. Open "Texturing.sln"
+
+6. Set your desired solution configuration (you'll most likely want "Release")
+
+7. Build the solution
+
+8. You can find the resulting binary in "apps/texrecon/<CMAKE_BUILD_TYPE>", where CMAKE_BUILD_TYPE is your chosen build type, i.e. one of { Release, Debug, RelWithDebInfo, MinSizeRel }.
